@@ -85,7 +85,7 @@ namespace Antik
             return name;
         }
 
-        public bool IsCursed()
+        public bool IsCursed()  // Vad returnerar inte?
         {
             int chance = generator.Next(0,5);
 
@@ -95,7 +95,7 @@ namespace Antik
                 {
                     return true;
                 }
-                else
+                else if (chance == 4)
                 {
                     return false;
                 }
@@ -107,7 +107,7 @@ namespace Antik
                 {
                     return false;
                 }
-                else
+                else if (chance == 4)
                 {
                     return true;
                 }
