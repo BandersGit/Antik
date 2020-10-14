@@ -6,7 +6,8 @@ namespace Antik
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Book book = new Book();
+            Kunder kund = new Kunder();
         }
     }
 }
